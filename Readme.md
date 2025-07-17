@@ -22,7 +22,7 @@ A 16 bit counter counts to the divisor value and sets it high on overflow. This 
 ---
 The basic architecture of the uart reciver module.
 
-![alt text](Images\ReceiverArc.png)
+![alt text](Images/ReceiverArc.png)
 
 
 Just as in **NS16550A** there will be a Line status register.
@@ -37,7 +37,7 @@ Since Uart is an ashynchronous protocol to prevent metastability the rx line wil
 
 The ASMD chart for the UART receiver module.
 
-![alt text](Images\ReceiverASMD.png)
+![alt text](Images/ReceiverASMD.png)
 
 All the bits are centre sampled. To prevent start bit glitching an additional three samples are taken before the mid point.
 
@@ -54,7 +54,7 @@ The same baud tick generator as the receiver was used for the sake of resusabili
 
 The ASMD chart for UART transmitter module
 
-![alt text](Images\TransmitterASMD.png)
+![alt text](Images/TransmitterASMD.png)
 
 ### **Synchronous FIFO**
 ---
